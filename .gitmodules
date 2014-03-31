@@ -1,0 +1,6 @@
+[submodule "docx.js"]
+	path = docx.js
+	url = https://github.com/stephen-hardy/docx.js
+[submodule "jszip"]
+	path = jszip
+	url = https://github.com/Stuk/jszip
