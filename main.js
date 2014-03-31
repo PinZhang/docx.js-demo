@@ -16,7 +16,7 @@ function convert() {
 
 function convertToPDF(aDocxContent) {
   var content = docx(aDocxContent);
-  $id('container').contentText = '';
+  $id('container').textContent = '';
   console.log('content length: ' + content.DOM.length);
   while (content.DOM.length > 0) {
     var node = content.DOM[0];
